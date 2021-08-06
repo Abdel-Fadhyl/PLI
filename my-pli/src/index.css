@@ -1,0 +1,21 @@
+header{
+  margin-top: 20px;
+}
+
+img{
+  width: 200px;
+	height: 200px;
+}
+
+.Card1{
+  width: 280px;
+	height: 30px;
+  display: flex;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+}
+
+
