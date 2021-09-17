@@ -1,0 +1,64 @@
+.User{
+        border-radius: 10px;
+        margin: top 30mm;
+        font-weight: 100%;
+        display: flex;
+        justify-content: center;
+        width: 500px;
+        height: 270px;
+        background-color: #2ac54d;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.UsersM{
+    margin: top 30mm;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*
+button {
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+
+}
+*/
+
+.container {
+    position: relative;
+    width: 200px;
+  }
+  
+  .image {
+    display: block;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #2ac54d;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    height: 100%;
+  }
+
+  .Select {
+    height: 50px;
+    width: 100px;
+    border-radius: 12px;
+    color: white;
+  }
